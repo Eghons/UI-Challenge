@@ -9,4 +9,8 @@
 // btn
 .btn-purple-gradient{
     background: $c-gradient-1;
+    &:hover{
+        // background: none;
+        // border: 1px solid $c-gradient-1;
+    }
 }
