@@ -1,0 +1,36 @@
+#header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    .nav-logo{
+        a{
+           .logo-text{
+            color: #FFF;
+            font-family: "Clash Display", sans-serif!important;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+           } 
+        }
+    }
+    .nav-menu{
+        .nav-menu-links{
+            ul{
+                .menu-link{
+                    display: inline-block;
+                    .nav-link{
+                        margin: 0px 20px;
+                        color: #FFF;
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}
