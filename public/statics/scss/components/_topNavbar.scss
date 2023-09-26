@@ -3,6 +3,8 @@
     width: 100%;
     position: fixed;
     justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px 30px 40px;
     .nav-logo{
         a{
            .logo-text{
@@ -16,6 +18,9 @@
         }
     }
     .nav-menu{
+        display: flex;
+        gap: 40px;
+        align-items: center;
         .nav-menu-links{
             ul{
                 .menu-link{
@@ -30,6 +35,16 @@
                         line-height: normal;
                     }
                 }
+            }
+        }
+        .nav-register-btn{
+            a{
+                color: #FFF;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
             }
         }
     }
